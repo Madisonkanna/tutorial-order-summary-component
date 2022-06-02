@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --bright-blue-hover: hsl(244, 83%, 68%);
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  color: var(--desaturated-blue);
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+.title {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.hero-image {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.container > * {
+  margin: 13px 0;
+}
+
+.container strong {
+  color: var(--dark-blue);
+}
+
+.order-description {
+  line-height: 25px;
+}
+
+.plan-container {
+  font-size: 16px;
+  background-color: var(--very-pale-blue);
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-container a {
+  color: var(--bright-blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-container a:hover {
+  color: var(--bright-blue-hover);
+  text-decoration: none;
+}
+
+.plan-description {
+  margin-right: 75px;
+  line-height: 20px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: white;
+  color: var(--desaturated-blue);
+  border: none;
+  margin-top: 22px;
+}
+
+.cancel-button:hover {
+  color: black;
+}
+
+.proceed-button {
+  background-color: var(--bright-blue);
+  padding: 1rem 0;
+  color: white;
+  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+}
+
+.proceed-button:hover {
+  background-color: var(--bright-blue-hover);
+}
