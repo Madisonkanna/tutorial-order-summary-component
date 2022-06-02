@@ -1,3 +1,4 @@
 # tutorial-order-summary-component
 
-(https://madisonkanna.github.io/tutorial-order-summary-component/)[App.]
+[App here.](https://madisonkanna.github.io/tutorial-order-summary-component/)
+
