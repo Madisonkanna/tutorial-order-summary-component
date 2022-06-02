@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -16,41 +16,41 @@
 }
 
 body {
+  background-color: var(--pale-blue);
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--pale-blue);
-  font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
 }
 
 .card {
-  width: 450px;
   background-color: white;
-  color: var(--desaturated-blue);
   border-radius: 20px;
+  color: var(--desaturated-blue);
   margin: 50px auto;
+  width: 450px;
 }
 
 .title {
   color: var(--dark-blue);
-  font-weight: 900;
   font-size: 32px;
+  font-weight: 900;
 }
 
 .hero-image {
-  width: 100%;
-  border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 30px;
   font-size: 18px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
 }
 
 .container > * {
@@ -66,14 +66,14 @@ body {
 }
 
 .plan-container {
-  font-size: 16px;
+  align-items: center;
   background-color: var(--very-pale-blue);
-  padding: 25px;
   border-radius: 12px;
   display: flex;
   flex-direction: row;
+  font-size: 16px;
   justify-content: space-between;
-  align-items: center;
+  padding: 25px;
 }
 
 .plan-container a {
@@ -88,24 +88,26 @@ body {
 }
 
 .plan-description {
-  margin-right: 75px;
   line-height: 20px;
+  margin-right: 75px;
 }
 
 button {
-  width: 100%;
   border: none;
-  font-weight: 700;
-  font-size: 0.9rem;
   border-radius: 12px;
   cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 100%;
 }
 
 .cancel-button {
-  background-color: white;
-  color: var(--desaturated-blue);
+  background-color: var(--very-pale-blue);
   border: none;
-  margin-top: 22px;
+  box-shadow: 0 10px 15px -8px rgb(197 189 245);
+  color: var(--desaturated-blue);
+  margin-top: 13px;
+  padding: 1rem 0;
 }
 
 .cancel-button:hover {
@@ -114,9 +116,9 @@ button {
 
 .proceed-button {
   background-color: var(--bright-blue);
-  padding: 1rem 0;
+  box-shadow: 0 10px 15px -8px rgb(197 189 245);
   color: white;
-  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+  padding: 1rem 0;
 }
 
 .proceed-button:hover {
