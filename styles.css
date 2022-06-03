@@ -102,10 +102,13 @@ button {
 }
 
 .cancel-button {
-  background-color: white;
+  /* background-color: white; */
   color: var(--desaturated-blue);
   border: none;
-  margin-top: 22px;
+  margin-top: 13px;
+  background-color: var(--very-pale-blue);
+  padding: 1rem 0;
+  box-shadow: 0 12px 20px -8px rgb(197 189 245);
 }
 
 .cancel-button:hover {
@@ -116,7 +119,7 @@ button {
   background-color: var(--bright-blue);
   padding: 1rem 0;
   color: white;
-  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+  box-shadow: 0 12px 20px -8px rgb(197 189 245);
 }
 
 .proceed-button:hover {
