@@ -30,6 +30,7 @@ body {
   color: var(--desaturated-blue);
   border-radius: 20px;
   margin: 50px auto;
+  overflow: hidden;
 }
 
 .title {
@@ -40,8 +41,6 @@ body {
 
 .hero-image {
   width: 100%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
 }
 
 .container {
